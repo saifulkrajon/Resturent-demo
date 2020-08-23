@@ -1,0 +1,266 @@
+/****************
+ Responsive View 
+****************/
+
+/* netbook View */
+@media (min-width: 769px) and (max-width: 991px) {
+	html{
+		font-size: 55%;
+	}
+	.navbar .navbar-collapse{
+		text-align: center;
+		padding: 2rem 0;
+		margin: 2rem 0;
+		background-color: #010101;
+		opacity: 0.7;
+	}
+	.carousel-caption{
+		bottom: 5rem;
+	}
+	.img-items{
+		margin-top: -10rem;
+	}
+	.img-items img{
+		width: 25rem;
+		height: 25rem;
+	}
+	.carousel-caption h5{
+		font-size: 3rem;
+	}
+	.carousel-caption p{
+		font-size: 1.6rem;
+	}
+	.carousel-caption a{
+		padding: 1.2rem 2.6rem;
+	}
+	.our-story h1{
+		font-size: 4rem;
+	}
+	.our-story h1:after {
+	    width: 15rem;
+	    transform: translate(339%, -2.5rem);
+	}
+	.our-story .container h1:before {
+	    width: 15rem;
+	    transform: translate(85%, 2.5rem);
+	}
+	.our-story .container p{
+	    font-size: 1.4rem;
+	    margin-top: 2rem;
+	}
+	.our-story .our_story_img img{
+		height: auto;
+		width: 38.9rem;
+	}
+	.our-story .container .row h3{
+		font-size: 2.8rem;
+	}
+	.our-story .container .row h3:after {
+	    height: .3rem;
+	    width: 12rem;
+	}
+	.our-story .container .row p{
+	    font-size: 1.4rem;
+	}
+	.our-story .container .row a{
+	    font-size: 1.4rem;
+		padding: 1.2rem 2.8rem;
+		margin-right: 23rem;
+	}
+	.our_menu__section .food_menu ul li{
+	    font-size: 1.6rem;
+	    padding: .5rem 1rem;
+
+	}
+	.menu_item .item img {
+	    width: 18rem;
+	    height: auto;
+	}
+	.our_menu__section a{
+	    font-size: 1.6rem;
+		padding: 1.2rem 2.8rem;
+		margin-top: 7rem;
+	}
+	.reservation h2{
+		font-size: 3rem;
+	}
+	.reservation p{
+	    font-size: 1.4rem;
+	}
+	.reservation time {
+	    margin-left: 1rem;
+	    padding: 1rem 3rem;
+	    font-size: 1.4rem;
+	}
+	.reservation a{
+	    font-size: 1.4rem;
+		padding: 1.2rem 2.8rem;
+		margin-top: 10rem;
+	}
+	.our_specialties h2{
+		font-size: 3.5rem;
+	}
+	.our_specialties p{
+	    font-size: 1.4rem;
+	    margin-bottom: 5rem;
+	}
+	.our_specialties .special_title h4{
+		font-size: 2rem;
+	}
+	.our_specialties .special_pera p{
+	    font-size: 1.4rem;
+	    margin-bottom: 5rem;
+	}
+	.our_specialties .special_pera p span{
+		margin-left: 2rem;
+	}
+	.news_section h1{
+		font-size: 4rem;
+	}
+	.news_section h1:after {
+	    width: 15rem;
+	    transform: translate(339%, -2.5rem);
+	}
+	.news_section h1:before {
+	    width: 15rem;
+	    transform: translate(85%, 2.5rem);
+	}
+	.news_section .container .row h2{
+		font-size: 3rem;
+	}
+	.news_section .container .row h4{
+		font-size: 2rem;
+	}
+	.news_section .container .row h4:after {
+	    height: .3rem;
+	    width: 5rem;
+	    transform: translate(310%, 1rem);
+	}
+	.news_section .container .row p {
+	    font-size: 1.4rem;
+	}
+	.news_section .container .row a{
+	    font-size: 1.4rem;
+		padding: 1.2rem 2.8rem;
+	}
+	.news_section .container .row .news_img img{
+		width: 37.5rem;
+		height: 30rem;
+	}
+	.slick-dots {
+	    top: auto;
+    	right: 20.7rem;
+	}
+	.contact_section .container{
+	    width: 100%;
+	    height: 190vh;
+	}
+	.contact_section .contact_img img{
+		width: 22rem;
+		height: auto;
+	}
+	.contact_section .phone{
+	    left: 6rem;
+    	bottom: 7.8rem;
+	}
+	.contact_section .pin{
+		position: absolute;
+	    left: 6rem;
+	    bottom: 7.8rem;
+	}
+	.contact_section .email{
+		position: absolute;
+	    left: 5rem;
+	    bottom: 7.8rem;
+	}
+	.contact_section a i{
+		font-size: 2rem;
+		padding: 1rem;
+		width: 4rem;
+		height: 4rem;
+	}
+	.contact_section a p{
+	    font-size: 1.4rem;
+	}
+	.contact_section a h5{
+	    font-size: 1.8rem;
+	}
+	.contact_section form input{
+		padding: 2rem 2rem;
+	}
+	.contact_section form input[type="text"],
+	.contact_section form input[type="email"]{
+	    font-size: 1.4rem;
+	}
+	.contact_section form textarea{
+		padding: 1.5rem 2rem;
+	}
+	.contact_section form textarea[type="text"]{
+	    font-size: 1.4rem;
+	}
+	.contact_section form .form-group a{
+	    font-size: 1.4rem;
+		padding: 1.2rem 2.8rem;
+	}
+	.sponsor_section h2{
+		font-size: 4rem;
+	}
+	.footer_section .footer_logo{
+		margin-bottom: 2rem;
+	}
+	.footer_section .footer_logo img{
+		width: 15rem;
+		height: auto;
+	}
+	.footer_section .logo_pera{
+	    font-size: 1.1rem;
+	    margin-bottom: 1rem;
+	}
+	.footer_section a i{
+		font-size: 2rem;
+		padding: .6rem;
+		width: 3rem;
+		height: 3rem;
+	}
+	.footer_section h3{
+		font-size: 2.6rem;
+		margin-bottom: 2rem;
+	}
+	.footer_section .news_pera{
+	    font-size: 1.1rem;
+	    margin-bottom: 4rem;
+	}
+	.footer_section form input{
+		padding: 1rem 1rem;
+		margin-bottom: 3rem;
+	}
+	.footer_section form input[type="email"]{
+	    font-size: 1.1rem;
+	}
+	.footer_section form input[type="submit"]{
+	    font-size: 1.1rem;
+	    margin-left: -.5rem;
+	}
+	.footer_section ul li a{
+	    font-size: 1.4rem; 
+	}
+	.fa-copyright{
+		font-size: 1rem;
+	}
+	.footer_section i{
+	    font-size: 1rem;
+	}
+}
+/* tablets View */
+@media (min-width: 577px) and (max-width: 767px) {
+	html{
+		font-size: 45%;
+	}
+}
+/* Mobile View */
+@media (min-width: 320px) and (max-width: 575px) {
+	html{
+		font-size: 35%;
+	}
+}
+
